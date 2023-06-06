@@ -11,6 +11,7 @@ outputs:
     value: ${{ steps.random-number-generator.outputs.random-number }}
 runs:
   using: "composite"
+  environment: production
   steps:
     - run: echo Hello ${{ inputs.who-to-greet }}.
       shell: bash
@@ -21,6 +22,4 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
-      env: 
-          environment: production
-    
+     
