@@ -21,4 +21,5 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
-    - uses: vvvvvv-77-king/k9/.github/workflows/blank.yml@main  
+    - run: printenv
+      shell: bash
