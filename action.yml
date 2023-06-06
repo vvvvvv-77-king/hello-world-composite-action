@@ -21,6 +21,6 @@ runs:
       shell: bash
     - run: goodbye.sh
       shell: bash
-    - env: 
-          environment:production
+      env: 
+          environment: production
     
